@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:dimgrey ;
+  background-image: url("https://www.parkerdatavoice.com/images-content/blog/security-shield.jpg");
+  height: 100vh;
+  background-size: 120px 120px ;
+}
+
+.password-generator {
+  padding: 20px;
+  position: relative;
+  left: -120px;
+  background-color:black;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.password-generator div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.password {
+  min-width: 280px;
+  background-color: lightsalmon;
+  border-radius: 5px;
+  color: rgb(199, 199, 199);
+}
+
+.password p {
+  padding: 6px 10px;
+}
+
+.password i {
+  background-color: rgba(0, 0, 0, 0.575);
+  padding: 6px 10px;
+}
+
+.password-generator button {
+  width: 100%;
+  border: none;
+  color: black;
+  border-radius: 30px;
+  background-color:lightsalmon;
+  padding: 10px;
+}
+
+#savebtn{
+  margin-top:10px;
+}
+.gmail1{
+  padding: 5px 60px;
+}
+#passwordBox{
+  color: black;
+}
